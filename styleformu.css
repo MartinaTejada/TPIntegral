@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Crimson Pro";
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: rgb(220, 0, 0);
+}
+ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    padding-top: 2%;
+}
+li{
+    width: 120px;
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.formu{
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(220, 0, 0), rgb(10, 10, 255));
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+label{
+    display: block;
+}
+input{
+    width: 40%px;
+    height: 30px;
+    border-radius: 3px;
+}
+textarea{
+    height: 50px;
+    width: 30%;
+    resize: none;
+}
+button{
+    height: 25px;
+    width: 15%;
+    background-color: rgb(66, 0, 171);
+    color: white;
+}
+footer{
+    background-color: rgb(220, 0, 0);
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+#texto{
+    color: white;
+}
+.icono{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
